@@ -1,0 +1,66 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(48, 48, 150);
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Navbar*/
+
+.topnav {
+    background-color: rgb(7, 7, 80);
+    font-variant: small-caps;
+    border: 1px white solid;
+    border-radius: 20px;
+}
+
+.topnav a {
+    float: left;
+    padding: 60px;
+    font-size: x-large;
+    color:white;
+    text-align: center;
+    border: none;
+}
+
+.topnav a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.right {
+    float: right;
+    margin-left: 450%;
+    width: 200px;
+    height: auto;
+}
+
+
+
+.topnav .idl_sand /*Anakin be like (amúgy sandwitch menü) */ {
+    display: none;
+}
+
+/*Reszponzííív navi (mert vicci-vicci és mert tudom hogy fel fogom húzni magam rajta )*/
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.idl_sand {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.resp {position: relative;}
+    .topnav.resp .idl_sand {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.resp a {
+      float: none;
+      display: block;
+      text-align: center;
+    }
+}
+
