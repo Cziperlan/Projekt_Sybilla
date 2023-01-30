@@ -1,6 +1,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(48, 48, 150);
+    margin: 0px;
 }
 
 a {
@@ -12,8 +13,6 @@ a {
 .topnav {
     background-color: rgb(7, 7, 80);
     font-variant: small-caps;
-    border: 1px white solid;
-    border-radius: 20px;
 }
 
 .topnav a {
