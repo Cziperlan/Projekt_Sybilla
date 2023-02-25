@@ -77,7 +77,7 @@
     font-size: x-large;
     font-variant: small-caps;
     border: none;
-    padding: 60px;
+    padding: 50px;
 
 }
 
@@ -99,11 +99,11 @@
 
 .dropdown-romane-conti a {
     color: white;
-    padding: 40px 50px;
+    padding: 40px 100px;
     display: block;
     transition-duration: 0.4s ease;
     text-align: center;
-    font-size: large;
+    font-size: 130%;
 }
 
 .dropdown-romane-conti a:hover {
@@ -120,44 +120,70 @@
 
 .cont {
     position: relative;
-    width: 50%;
+    border: none;
+    padding: none;
+    margin: none;
 }
 
 .linkpic {
     display: block;
-    width: 400px;
-    height:auto;
+    overflow: none;
+    width: 970px;
+    height: 600px;
+}
+
+.tag {
+    width: 2000px;
+    height: auto;
+    @media  screen and (max-width: 720px){
+        display: block;
+        overflow: none;
+        width: 970px;
+        height: 600px;
+    }
 }
 
 .overlayer_text {
     color: white;
-    font-size: 20px;
+    font-size: xx-large;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
     text-align: center;
+    top: 50%;
+    left: 25%;
+    right: 25%;
   }
+
+.ov_bottom {
+    color: white;
+    font-size: medium;
+    position: absolute;
+    text-align: center;
+    top: 58%;
+    left: 25%;
+    right: 25%;
+}
 
 .overlayer {
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 0;
+    left: 12px;
     right: 0;
     height: 100%;
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #272a2b;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .cont:hover .overlayer {
-    opacity: 8;
+    opacity: 1;
 }
 
+.black {
+    background-color: black;
+    color: white;
+}
 
 /*Lol be like hee hee*/
 .lolcím{
