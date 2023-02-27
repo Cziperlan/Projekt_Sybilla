@@ -31,12 +31,7 @@
     position: relative;
 }
 
-
-
-.topnav .idl_sand
-
-/*Anakin be like (amúgy sandwitch menü) */
-    {
+.topnav .idl_sand {
     display: none;
 }
 
@@ -131,7 +126,7 @@
     display: block;
     overflow: hidden;
     width: 700px;
-    height: 550px;
+    height: 520px;
 }
 
 .tag {
@@ -141,7 +136,9 @@
     overflow: hidden;
     @media  screen and (max-width: 720px){
         width: 970px;
-        height: 550px;
+        height: 520px;
+        display: block;
+        overflow: hidden;
     }
 }
 
