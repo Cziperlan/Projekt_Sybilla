@@ -12,5 +12,7 @@ body{
 .nyujtott{
     width: 500px;
     max-height: 500px;
-
+}
+.sz100{
+    width: 100%;
 }
