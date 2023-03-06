@@ -7,7 +7,7 @@
 
 .topnav a {
     float: left;
-    padding: 60px;
+    padding: 10px 70px;
     font-size: x-large;
     color: white;
     text-align: center;
@@ -26,10 +26,16 @@
 
 .right {
     float: right;
-    margin-left: 400%;
+    margin-left: 170%;
+    position: relative;
+}
+
+#logo {
+    float:right;
     width: 200px;
     height: auto;
-    position: relative;
+    overflow: none;
+
 }
 
 /*Dropdown*/
