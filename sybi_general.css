@@ -104,13 +104,18 @@
         font-size: 70%;
         padding: 15px 50px;
     }
+
 }
+
+/*Overlayer*/
 .cont {
     position: relative;
     border: none;
     padding: none;
     margin: none;
     overflow: hidden;
+    transition-duration: 0.5s;
+    transform: scale(1.0);
 }
 
 .linkpic {
@@ -119,6 +124,8 @@
     width: 700px;
     height: 500px;
     scale: 1.05;
+    transition-duration: 0.5s;
+    transform: scale(1.0);
 }
 
 #tag {
@@ -126,6 +133,8 @@
     height: auto;
     display: block;
     overflow: hidden;
+    transition-duration: 0.5s;
+    transform: scale(1.0);
 }
 @media  screen and (max-width: 991px){
     #tag{
@@ -165,7 +174,7 @@
     height: 100%;
     width: 100%;
     opacity: 0;
-    transition: .5s ease;
+    transition: 0.5s ease;
     background-color: rgba(0, 0, 0, 0.6);
 }
 
@@ -186,20 +195,46 @@
     overflow: hidden;
 }
 
-.black {
-    background-color: black;
+/*Footer*/
+.footer{
+    padding: 20px;
+    text-align: left;
+    background-color: rgb(7, 7, 80);
+    font-size: 100%;
     color: white;
+    margin: none;
+    bottom: 0;
+  }
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.f-ul a:hover {
+    text-decoration: underline;
+}
+.f-ul {
+    list-style: none;
+}
+.footer-title {
+    font-size: 150%;
+    color: white;
+    font-variant: small-caps;
+}
+.f-ikon {
+    width: 40px;
+    height: auto;
+    border-radius: 60%;
+    margin: 5px;
+    text-decoration: none;
 }
 
-#footer {
-    padding: 20px;
-    text-align: justify;
-    background-color: rgb(7, 7, 80);
+/*Minden más*/
+.bpic {
+    background-image: url(abus_linkpic4.jpg);
     color: white;
-    font-size: 130%;
-    font-variant: small-caps;
-    vertical-align: center;
-  }
+}
 
 /*Lol be like hee hee*/
 .lolcím{
