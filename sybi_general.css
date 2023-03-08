@@ -57,7 +57,7 @@
     font-size: x-large;
     font-variant: small-caps;
     border: none;
-    padding: 50px;
+    padding: 60px;
     vertical-align: center;
 }
 
@@ -73,14 +73,14 @@
     background-color: rgb(7, 7, 80);
     min-width: auto;
     cursor: pointer;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     
 }
 
 .dropdown-romane-conti a {
     color: white;
-    padding: 50px 100px;
+    padding: 50px 110px;
     display: block;
     transition-duration: 0.4s ease;
     text-align: center;
@@ -99,6 +99,12 @@
     text-decoration: underline;
 }
 
+@media  screen and (max-width: 767px) {
+    .topnav a, .dropbtn,.dropdown-romane-conti a {
+        font-size: 70%;
+        padding: 15px 50px;
+    }
+}
 .cont {
     position: relative;
     border: none;
@@ -174,7 +180,7 @@
     overflow: hidden;
 }
 
-.cont:hover .tag {
+.cont:hover #tag {
     transform: scale(1.2);
     transition-duration: 0.5s;
     overflow: hidden;
@@ -184,6 +190,16 @@
     background-color: black;
     color: white;
 }
+
+#footer {
+    padding: 20px;
+    text-align: justify;
+    background-color: rgb(7, 7, 80);
+    color: white;
+    font-size: 130%;
+    font-variant: small-caps;
+    vertical-align: center;
+  }
 
 /*Lol be like hee hee*/
 .lolcím{
