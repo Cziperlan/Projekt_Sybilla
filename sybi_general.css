@@ -3,6 +3,7 @@
 .topnav {
     background-color: rgb(7, 7, 80);
     font-variant: small-caps;
+    display: flex;
 }
 
 .topnav a {
@@ -13,7 +14,6 @@
     text-align: center;
     border: none;
     text-decoration: none;
-    
 }
 
 .topnav a:hover {
@@ -24,10 +24,16 @@
     text-decoration: underline;
 }
 
+.left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+}
+
 .right {
-    float: right;
-    margin-left: 170%;
-    position: relative;
+    width: 20%;
+    
 }
 
 #logo {
@@ -35,7 +41,11 @@
     width: 200px;
     height: auto;
     overflow: none;
-
+}
+@media screen and (max-width:991px){
+    #logo{
+        display: none;
+    }
 }
 
 /*Dropdown*/
@@ -48,12 +58,12 @@
     font-variant: small-caps;
     border: none;
     padding: 50px;
-
+    vertical-align: center;
 }
 
 .dropdown {
     position: relative;
-    display: inline-block;
+    display: block;
 }
 
 .dropdown-romane-conti {
@@ -65,11 +75,12 @@
     cursor: pointer;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    
 }
 
 .dropdown-romane-conti a {
     color: white;
-    padding: 40px 100px;
+    padding: 50px 100px;
     display: block;
     transition-duration: 0.4s ease;
     text-align: center;
@@ -104,16 +115,19 @@
     scale: 1.05;
 }
 
-.tag {
+#tag {
     width: 2000px;
     height: auto;
     display: block;
     overflow: hidden;
-    @media  screen and (max-width: 800px){
-        
-        height: auto;
+}
+@media  screen and (max-width: 991px){
+    #tag{
+        height: 500px!important;
         display: block;
         overflow: hidden;
+        width: 700px;
+        scale: 1.05;
     }
 }
 
