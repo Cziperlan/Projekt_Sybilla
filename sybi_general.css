@@ -8,7 +8,7 @@
 
 .topnav a {
     float: left;
-    padding: 10px 70px;
+    padding: 5px 70px;
     font-size: x-large;
     color: white;
     text-align: center;
@@ -29,6 +29,9 @@
     flex-direction: row;
     align-items: center;
     width: 80%;
+}
+.cent {
+    width: 30%;
 }
 
 .right {
@@ -197,6 +200,7 @@
 
 /*Footer*/
 .footer{
+    padding-top: 30px;
     padding: 20px;
     text-align: left;
     background-color: rgb(7, 7, 80);
