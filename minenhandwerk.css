@@ -27,8 +27,9 @@ img{
     width: 600px;
     height: 300px;
     border: solid 2px black;
+    /*A naviban a képre ez is hat szóval pls csinálj belőle classt. Köcce*/
 }
 #body{
     margin-left: 5%;
-
+    /*Kicsit ferde így a dolog, hogy csak az egyik oldalon adtad meg. Persze ha ez szándékos akkor nem szóltam*/
 }
