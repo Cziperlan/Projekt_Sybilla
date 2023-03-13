@@ -14,7 +14,7 @@ td{
 table{
     margin-left: auto;
     margin-right: auto;
-    width: 400px;
+    width: 100%;
     border: 2px black solid;
 }
 
@@ -22,14 +22,35 @@ h2{
     text-align: center;
 }
 
-img{
+.img{
     border-radius: 20px;
-    width: 600px;
-    height: 300px;
     border: solid 2px black;
-    /*A naviban a képre ez is hat szóval pls csinálj belőle classt. Köcce*/
+    max-width: 100%;
+    height: 250px;
 }
+
+
+
+.img2{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    border: solid 2px black;
+}
+
 #body{
-    margin-left: 5%;
-    /*Kicsit ferde így a dolog, hogy csak az egyik oldalon adtad meg. Persze ha ez szándékos akkor nem szóltam*/
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+figure {
+    display: inline-block;
+    margin: 20px; /* adjust as needed */
+}
+figure img {
+    vertical-align: top;
+}
+figure figcaption {
+    text-align: center;
 }
