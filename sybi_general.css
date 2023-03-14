@@ -236,6 +236,30 @@
     text-decoration: none;
 }
 
+/*Rólunk*/
+.t1 {
+    margin-top: 2.5%;
+    text-align: center;
+    font-size: 300%;
+}
+.t2 {
+    text-align: justify;
+    text-indent: 3%;
+    margin: 1.5% 15% 3% 15%;
+    font-size: 120%;
+}
+.d1 {
+    margin: none;
+    background-color: rgb(7, 7, 80);
+    display: grid;
+    place-items: center;
+    color: white;
+}
+.d2 {
+    display: grid;
+    place-items: center;
+    color: white;
+}
 /*Minden más*/
 .bc {
     background-color: rgb(20, 20, 20);
@@ -260,6 +284,7 @@
     background-color: rgb(11, 11, 105);
     cursor: pointer;
 }
+
 
 /*Lol be like hee hee*/
 .lolcím{
