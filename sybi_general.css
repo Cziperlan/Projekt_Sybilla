@@ -32,10 +32,6 @@
     width:80%;
 }
 
-.cent {
-    width: 30%;
-}
-
 .right {
     width: 20%;
 
@@ -111,8 +107,8 @@
     .topnav a,
     .dropbtn,
     .dropdown-romane-conti a {
-        font-size: 70%;
-        padding: 15px 50px;
+        font-size: 100%;
+        padding: 15px 55px;
     }
 
 }
