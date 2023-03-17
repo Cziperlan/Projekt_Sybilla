@@ -374,6 +374,15 @@
 .dis-a {
     text-decoration: none;
     color: white;
+}
+
+.dis-a:hover {
+    text-decoration: underline;
+}
+
+.stealth-a {
+    text-decoration: none;
+    color: white;
     cursor: default;
 }
 
