@@ -12,7 +12,7 @@ h1,h2{
     background-color: rgb(51, 134, 230);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
-    background-image: url("../Projekt_Sybilla/GTKépek/0.\ Table.png");
+    background-image: url("/GTKépek/0.\ Table.png");
     background-size: cover;
 }
 table.Típusok{
@@ -40,7 +40,7 @@ p{
     background-color: rgb(42, 216, 144);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
-    background-image: url("../Projekt_Sybilla/GTKépek/1.Table.jpg");
+    background-image: url("/GTKépek/1.Table.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-color: 0,0,0,0.75;
@@ -58,7 +58,7 @@ table.Megjelenések{
     border-style: solid;
     background-color: rgb(80, 155, 30);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-image: url("../Projekt_Sybilla/GTKépek/2.\ Table.jpg");
+    background-image: url("/GTKépek/2.\ Table.jpg");
     background-size: cover;
     font-size: 18px;
 
@@ -75,7 +75,7 @@ table.Verziók{
     background-color: rgb(231, 97, 20);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
-    background-image: url("../Projekt_Sybilla/GTKépek/3.\ Table.jpg");
+    background-image: url("/GTKépek/3.\ Table.jpg");
     background-size: cover;
 }
 table.Rating{
