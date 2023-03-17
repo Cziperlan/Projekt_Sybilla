@@ -371,6 +371,10 @@
     cursor: pointer;
 }
 
+.dis-a {
+    text-decoration: none;
+    color: white
+}
 
 /*Lol be like hee hee*/
 .lolcím {
