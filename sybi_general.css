@@ -372,6 +372,11 @@
 }
 
 .dis-a {
+    text-decoration: underline;
+    color: white;
+}
+
+.stealth-a {
     text-decoration: none;
     color: white;
     cursor: default;
