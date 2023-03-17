@@ -62,8 +62,8 @@ h2{
 
 
 #body{
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 
@@ -92,4 +92,9 @@ h3{
 
 .container{
     text-align: center;
+}
+
+.a1{
+    text-decoration: none;
+    color: crimson;
 }
