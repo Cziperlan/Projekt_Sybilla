@@ -12,6 +12,14 @@ h1,h2{
     background-color: rgb(51, 134, 230);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
+    background-image: url("../Projekt_Sybilla/ChickenStripsAAAAAAAAAAAA/0.\ Table.png");
+    background-size: cover;
+}
+table.Típusok{
+    height: 700px;
+    width: 80%;
+    color: white;
+    margin-left: 10%; 
 
 }
 td, th,tr{
@@ -35,21 +43,31 @@ p{
     background-image: url("../Projekt_Sybilla/ChickenStripsAAAAAAAAAAAA/1.Table.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 90%;
+    background-color: 0,0,0,0.75;
 }
 
 table.Megjelenések{
     height: 700px;
     width: 80%;
     color: white;
-    margin-left: 10%;   
+    margin-left: 10%; 
+
 }
 .Verziók{
     border: 3px black;
     border-style: solid;
     background-color: rgb(80, 155, 30);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("../Projekt_Sybilla/ChickenStripsAAAAAAAAAAAA/2.\ Table.jpg");
+    background-size: cover;
     font-size: 18px;
+
+}
+table.Verziók{
+    height: 700px;
+    width: 80%;
+    color: white;
+    margin-left: 10%;   
 }
 .Rating{
     border: 3px black;
@@ -57,6 +75,15 @@ table.Megjelenések{
     background-color: rgb(231, 97, 20);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
+    background-image: url("../Projekt_Sybilla/ChickenStripsAAAAAAAAAAAA/3.\ Table.jpg");
+    background-size: cover;
+}
+table.Rating{
+    height: 700px;
+    width: 80%;
+    color: white;
+    margin-left: 10%; 
+
 }
 thead{
     font-size: 30px;
@@ -66,4 +93,16 @@ h3{
     text-align: center;
     font-size: 35px;
     font-weight: bold;
+}
+.SZÉK{
+    margin-left: 450px;
+    border: 10px black;
+    border-radius: 15px;
+}
+.TávAutó{
+    margin-left: 400px;
+    width: 100%;
+    height: 450px auto; 
+    border: 10px black;
+    border-radius: 15px;
 }
