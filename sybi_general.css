@@ -373,7 +373,8 @@
 
 .dis-a {
     text-decoration: none;
-    color: white
+    color: white;
+    cursor: default;
 }
 
 /*Lol be like hee hee*/
